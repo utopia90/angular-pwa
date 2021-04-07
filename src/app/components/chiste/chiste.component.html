@@ -1,0 +1,13 @@
+<h1>
+  Nuevo Chiste
+</h1>
+
+<div>
+  <h2 *ngIf="frase">
+    {{frase.value}}
+  </h2>
+
+  <button (click)='nuevaFrase()'>
+    Dime un nuevo Chiste
+  </button>
+</div>
