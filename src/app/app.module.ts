@@ -7,11 +7,13 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { ChisteComponent } from './components/chiste/chiste.component';
 import { DataService } from './services/data.service';
+import { SuscripcionComponent } from './components/suscripcion/suscripcion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChisteComponent
+    ChisteComponent,
+    SuscripcionComponent
   ],
   imports: [
     BrowserModule,

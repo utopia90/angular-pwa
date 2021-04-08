@@ -34,6 +34,7 @@ app.get('/', (req, res) => {
 app.post('/subscribe', (req, res) => {
 
   // Obtenemos el BODY de la petición POST
+  // En el body se encuentra la PushSubscription
   let body = req.body;
 
   // Definimos las claves Públicas y Privadas de Web-Push
